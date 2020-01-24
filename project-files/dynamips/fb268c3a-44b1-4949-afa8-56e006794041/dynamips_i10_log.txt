@@ -1,0 +1,46 @@
+Jan 22 11:34:00.629 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 22 11:34:00.630 HYPERVISOR: Started on IP = localhost, TCP port = 58177.
+Jan 22 11:34:01.100 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 22 11:34:01.101 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips 
+Jan 22 11:34:01.101 GENERAL: working_dir=C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips
+Jan 22 11:34:01.101 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips\9fe1e954-1235-4ce6-a061-62a7efb60ecc 
+Jan 22 11:34:01.101 GENERAL: working_dir=C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips\9fe1e954-1235-4ce6-a061-62a7efb60ecc
+Jan 22 11:34:01.102 HYPERVISOR: exec_cmd: vm create Faro 9 c7200 
+Jan 22 11:34:01.103 VM: VM Faro created.
+Jan 22 11:34:01.104 HYPERVISOR: exec_cmd: vm set_con_tcp_port Faro 5009 
+Jan 22 11:34:01.104 HYPERVISOR: exec_cmd: c7200 get_mac_addr Faro 
+Jan 22 11:34:01.105 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:01.105 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 0 0 C7200-IO-FE 
+Jan 22 11:34:01.106 HYPERVISOR: exec_cmd: vm set_disk0 Faro 0 
+Jan 22 11:34:01.106 HYPERVISOR: exec_cmd: vm set_exec_area Faro 64 
+Jan 22 11:34:01.107 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:01.107 HYPERVISOR: exec_cmd: vm set_idle_pc Faro 0x63184dd4 
+Jan 22 11:34:01.108 HYPERVISOR: exec_cmd: vm set_ios Faro C:/Users/guilh/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 22 11:34:01.109 HYPERVISOR: exec_cmd: c7200 set_mac_addr Faro ca09.19e0.0000 
+Jan 22 11:34:01.110 HYPERVISOR: exec_cmd: vm set_nvram Faro 512 
+Jan 22 11:34:01.110 HYPERVISOR: exec_cmd: vm set_ram Faro 512 
+Jan 22 11:34:01.111 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:01.111 HYPERVISOR: exec_cmd: vm slot_remove_binding Faro 0 0 
+Jan 22 11:34:01.111 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:01.112 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 0 0 C7200-IO-2FE 
+Jan 22 11:34:01.112 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:01.112 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 1 0 PA-2FE-TX 
+Jan 22 11:34:01.113 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:01.113 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 2 0 PA-2FE-TX 
+Jan 22 11:34:01.113 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:01.114 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 3 0 PA-4E 
+Jan 22 11:34:06.496 HYPERVISOR: exec_cmd: nio create_udp udp-f04f9041-4672-4b7a-9dc5-782a93f698f0 10048 127.0.0.1 10049 
+Jan 22 11:34:06.759 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Faro 0 1 udp-f04f9041-4672-4b7a-9dc5-782a93f698f0 
+Jan 22 11:34:06.760 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:34:06.995 HYPERVISOR: exec_cmd: nio create_udp udp-1e7210b7-3408-44a2-b797-b0c12f855219 10058 127.0.0.1 10059 
+Jan 22 11:34:06.997 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Faro 1 0 udp-1e7210b7-3408-44a2-b797-b0c12f855219 
+Jan 22 11:34:06.998 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:44:15.714 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:44:15.715 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Jan 22 11:44:16.197 HYPERVISOR: exec_cmd: vm get_status Faro 
+Jan 22 11:44:16.199 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Jan 22 11:44:16.200 HYPERVISOR: exec_cmd: vm delete Faro 
+Jan 22 11:44:16.200 VM: VM Faro destroyed.
+Jan 22 11:44:16.212 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 22 11:44:16.353 HYPERVISOR: Stopped.
+Jan 22 11:44:16.353 GENERAL: reset done.

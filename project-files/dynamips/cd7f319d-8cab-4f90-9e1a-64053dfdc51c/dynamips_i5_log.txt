@@ -1,0 +1,49 @@
+Jan 22 11:33:57.794 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 22 11:33:57.794 HYPERVISOR: Started on IP = localhost, TCP port = 58162.
+Jan 22 11:33:58.279 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 22 11:33:58.279 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips 
+Jan 22 11:33:58.279 GENERAL: working_dir=C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips
+Jan 22 11:33:58.279 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips\217d94ce-321a-431e-900e-e41669225031 
+Jan 22 11:33:58.291 GENERAL: working_dir=C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips\217d94ce-321a-431e-900e-e41669225031
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm create Oeiras 4 c7200 
+Jan 22 11:33:58.291 VM: VM Oeiras created.
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm set_con_tcp_port Oeiras 5004 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: c7200 get_mac_addr Oeiras 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-FE 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm set_disk0 Oeiras 0 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm set_exec_area Oeiras 64 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm set_idle_pc Oeiras 0x63184dd4 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm set_ios Oeiras C:/Users/guilh/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: c7200 set_mac_addr Oeiras ca04.1190.0000 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm set_nvram Oeiras 512 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm set_ram Oeiras 512 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm slot_remove_binding Oeiras 0 0 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-2FE 
+Jan 22 11:33:58.291 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:33:58.306 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 1 0 PA-2FE-TX 
+Jan 22 11:33:58.306 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:33:58.306 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 2 0 PA-2FE-TX 
+Jan 22 11:33:58.306 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:33:58.306 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 3 0 PA-4E 
+Jan 22 11:34:04.555 HYPERVISOR: exec_cmd: nio create_udp udp-2e9c837e-34b5-4b83-8f49-6afd49db6b8e 10014 127.0.0.1 10015 
+Jan 22 11:34:04.799 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 0 udp-2e9c837e-34b5-4b83-8f49-6afd49db6b8e 
+Jan 22 11:34:04.799 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:34:06.486 HYPERVISOR: exec_cmd: nio create_udp udp-294208ab-e427-4ddc-b9f4-521d3f03505a 10046 127.0.0.1 10047 
+Jan 22 11:34:06.486 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 1 udp-294208ab-e427-4ddc-b9f4-521d3f03505a 
+Jan 22 11:34:06.486 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:34:06.876 HYPERVISOR: exec_cmd: nio create_udp udp-b3388621-04f1-4814-87a0-ce14c87d6467 10052 127.0.0.1 10053 
+Jan 22 11:34:06.879 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 1 0 udp-b3388621-04f1-4814-87a0-ce14c87d6467 
+Jan 22 11:34:06.880 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:44:15.696 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:44:15.697 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Jan 22 11:44:16.197 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 22 11:44:16.199 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Jan 22 11:44:16.200 HYPERVISOR: exec_cmd: vm delete Oeiras 
+Jan 22 11:44:16.200 VM: VM Oeiras destroyed.
+Jan 22 11:44:16.211 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 22 11:44:16.639 HYPERVISOR: Stopped.
+Jan 22 11:44:16.639 GENERAL: reset done.

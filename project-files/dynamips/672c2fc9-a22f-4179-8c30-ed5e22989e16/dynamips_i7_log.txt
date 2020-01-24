@@ -1,0 +1,46 @@
+Jan 22 11:33:58.944 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 22 11:33:58.945 HYPERVISOR: Started on IP = localhost, TCP port = 58168.
+Jan 22 11:33:59.419 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 22 11:33:59.419 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips 
+Jan 22 11:33:59.419 GENERAL: working_dir=C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips
+Jan 22 11:33:59.419 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips\87d7914c-ede5-4124-99b5-98032a587a01 
+Jan 22 11:33:59.421 GENERAL: working_dir=C:\Users\guilh\GNS3\projects\projrecurso\project-files\dynamips\87d7914c-ede5-4124-99b5-98032a587a01
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm create EmpA1 6 c7200 
+Jan 22 11:33:59.421 VM: VM EmpA1 created.
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm set_con_tcp_port EmpA1 5006 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: c7200 get_mac_addr EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA1 0 0 C7200-IO-FE 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm set_disk0 EmpA1 0 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm set_exec_area EmpA1 64 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm set_idle_pc EmpA1 0x63184dd4 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm set_ios EmpA1 C:/Users/guilh/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: c7200 set_mac_addr EmpA1 ca06.094c.0000 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm set_nvram EmpA1 512 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm set_ram EmpA1 512 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm slot_remove_binding EmpA1 0 0 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA1 0 0 C7200-IO-2FE 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA1 1 0 PA-2FE-TX 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA1 2 0 PA-2FE-TX 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:33:59.421 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA1 3 0 PA-4E 
+Jan 22 11:34:04.916 HYPERVISOR: exec_cmd: nio create_udp udp-67d1bf75-dc7a-421c-a7cd-3584e65eea00 10018 127.0.0.1 10019 
+Jan 22 11:34:05.156 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpA1 0 0 udp-67d1bf75-dc7a-421c-a7cd-3584e65eea00 
+Jan 22 11:34:05.156 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:34:06.313 HYPERVISOR: exec_cmd: nio create_udp udp-1052bbe7-8923-4abf-a2a7-4484c47ec1e5 10036 127.0.0.1 10037 
+Jan 22 11:34:06.315 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpA1 0 1 udp-1052bbe7-8923-4abf-a2a7-4484c47ec1e5 
+Jan 22 11:34:06.316 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:44:15.704 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:44:15.705 HYPERVISOR: exec_cmd: vm extract_config EmpA1 
+Jan 22 11:44:16.153 HYPERVISOR: exec_cmd: vm get_status EmpA1 
+Jan 22 11:44:16.154 HYPERVISOR: exec_cmd: vm extract_config EmpA1 
+Jan 22 11:44:16.155 HYPERVISOR: exec_cmd: vm delete EmpA1 
+Jan 22 11:44:16.155 VM: VM EmpA1 destroyed.
+Jan 22 11:44:16.166 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 22 11:44:16.258 HYPERVISOR: Stopped.
+Jan 22 11:44:16.258 GENERAL: reset done.
