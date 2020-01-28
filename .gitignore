@@ -1,0 +1,4 @@
+images/
+*.txt
+*.log
+project-files/dynamips/
