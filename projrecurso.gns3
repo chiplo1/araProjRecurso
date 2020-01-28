@@ -1990,7 +1990,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5008,
+                "console": 5029,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
