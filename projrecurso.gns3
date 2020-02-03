@@ -1882,8 +1882,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "c2ae524a-94bd-467b-82c2-ecd90361aa9e",
                 "width": 66,
-                "x": -333,
-                "y": 53,
+                "x": -332,
+                "y": 51,
                 "z": 1
             },
             {
@@ -2596,7 +2596,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5019,
+                "console": 5023,
                 "console_auto_start": true,
                 "console_type": "telnet",
                 "custom_adapters": [],
